@@ -13,4 +13,9 @@ client.on('message', msg => {
   }
 });
 
+client.on("message", msg => {
+  if (msg.content == "love health") {
+    msg.react("❤️");
+  }});
+
 client.login(process.env.BOT_TOKEN);
