@@ -14,7 +14,7 @@ client.on('message', msg => {
 });
 
 client.on("message", msg => {
-  if (msg.content == "love health") {
+  if (msg.content == "i love health bot") {
     msg.react("❤️");
   }});
 
